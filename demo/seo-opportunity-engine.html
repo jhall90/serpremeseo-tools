@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEO Opportunity Engine — SERPremeSEO</title>
+    <meta name="description" content="Free SEO Opportunity Engine. Estimate traffic, leads, and revenue from organic search using your own data." />
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 2rem 1rem;
+            font-family: system-ui, sans-serif;
+            background: #f1f5f9;
+        }
+        .page-wrap {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .page-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .page-header h1 {
+            font-size: 2rem;
+            color: #0f172a;
+            margin: 0 0 0.5rem;
+        }
+        .page-header p {
+            color: #475569;
+            margin: 0;
+        }
+        .embed-block {
+            background: #fff;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .embed-block h3 {
+            margin: 0 0 0.75rem;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #64748b;
+        }
+        .embed-block code {
+            display: block;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            font-size: 0.8125rem;
+            color: #0f172a;
+            white-space: pre;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrap">
+        <div class="page-header">
+            <h1>SEO Opportunity Engine</h1>
+            <p>Estimate the traffic, leads, and revenue opportunity from organic search — using your own data.</p>
+        </div>
+
+        <script src="../dist/seo-opportunity-engine.min.js"></script>
+
+        <seo-opportunity-engine
+            branding="brand"
+            theme="system"
+            style="
+                --brand-top: #0e2a59;
+                --brand-bottom: #0e2a59;
+            ">
+        </seo-opportunity-engine>
+
+        <div class="embed-block">
+            <h3>Embed this tool</h3>
+            <script src="https://cdn.jsdelivr.net/gh/jhall90/serpremeseo-tools@latest/dist/seo-opportunity-engine.min.js"></script>
+            <seo-opportunity-engine
+                branding="brand"
+                theme="system"
+                style="
+                    --brand-top: var(--e-global-color-primary);
+                    --brand-bottom: var(--e-global-color-secondary);
+                    --font-family: var(--e-global-typography-text-font-family, inherit);
+                ">
+            </seo-opportunity-engine>
+        </div>
+    </div>
+</body>
+</html>
